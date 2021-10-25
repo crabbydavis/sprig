@@ -8,9 +8,11 @@ def capacitor_pods
 end
 
 target 'Plugin' do
+  pod 'UserLeapKit'
   capacitor_pods
 end
 
 target 'PluginTests' do
+  pod 'UserLeapKit'
   capacitor_pods
 end
