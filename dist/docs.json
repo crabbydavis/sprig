@@ -1,0 +1,169 @@
+{
+  "api": {
+    "name": "SprigPlugin",
+    "slug": "sprigplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "configure",
+        "signature": "(options: { environmentId: string; }) => Promise<void>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ environmentId: string; }"
+          }
+        ],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "configure"
+      },
+      {
+        "name": "setUserIdentifier",
+        "signature": "(options: { identifier: string; }) => Promise<void>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ identifier: string; }"
+          }
+        ],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "setuseridentifier"
+      },
+      {
+        "name": "setEmailAddress",
+        "signature": "(options: { email: string; }) => Promise<void>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ email: string; }"
+          }
+        ],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "setemailaddress"
+      },
+      {
+        "name": "setVisitorAttribute",
+        "signature": "(options: { key: string; value: string; }) => Promise<void>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ key: string; value: string; }"
+          }
+        ],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "setvisitorattribute"
+      },
+      {
+        "name": "removeVisitorAttributes",
+        "signature": "(options: { keys: string[]; }) => Promise<void>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ keys: string[]; }"
+          }
+        ],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "removevisitorattributes"
+      },
+      {
+        "name": "trackEvent",
+        "signature": "(options: { eventName: string; }) => Promise<void>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ eventName: string; }"
+          }
+        ],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "trackevent"
+      },
+      {
+        "name": "presentSurvey",
+        "signature": "(options: { eventName: string; }) => Promise<{ surveryState: SurveyState; }>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ eventName: string; }"
+          }
+        ],
+        "returns": "Promise<{ surveryState: SurveyState; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "SurveyState"
+        ],
+        "slug": "presentsurvey"
+      },
+      {
+        "name": "presentDebugSurvey",
+        "signature": "() => Promise<void>",
+        "parameters": [],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "presentdebugsurvey"
+      },
+      {
+        "name": "logout",
+        "signature": "() => Promise<void>",
+        "parameters": [],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "logout"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [
+    {
+      "name": "SurveyState",
+      "slug": "surveystate",
+      "members": [
+        {
+          "name": "ShowSurvery",
+          "tags": [],
+          "docs": ""
+        },
+        {
+          "name": "NoSurvey",
+          "tags": [],
+          "docs": ""
+        },
+        {
+          "name": "Disabled",
+          "tags": [],
+          "docs": ""
+        }
+      ]
+    }
+  ]
+}

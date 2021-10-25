@@ -1,5 +1,6 @@
 .idea/
-dist
+# Keep dist folder in repo so people can download package from git instead of npm
+# dist
 .sourcemaps
 xcuserdata/
 node_modules/
