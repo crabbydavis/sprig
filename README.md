@@ -25,11 +25,12 @@
 
 ## Installation
 
-TODO
+npm i git+https://git@github.com/crabbydavis/sprig.git
 
 ## Configuration
 
-TODO
+Create an account on Sprig's website to get started
+https://sprig.com/
 
 ## Usage
 
