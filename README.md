@@ -1,8 +1,8 @@
 <p align="center"><br><img src="https://user-images.githubusercontent.com/236501/85893648-1c92e880-b7a8-11ea-926d-95355b8175c7.png" width="128" height="128" /></p>
-<h3 align="center">Example</h3>
-<p align="center"><strong><code>@capacitor-community/example</code></strong></p>
+<h3 align="center">Capacitor Sprig</h3>
+<p align="center"><strong><code>@capacitor-community/sprig</code></strong></p>
 <p align="center">
-  Capacitor community plugin for something awesome.
+  Capacitor community plugin for the iOS and Android Sprig SDKs.
 </p>
 
 <p align="center">
@@ -19,9 +19,9 @@
 
 ## Maintainers
 
-| Maintainer | GitHub | Social |
-| -----------| -------| -------|
-| Ionitron (example) | [Ionitron](https://github.com/ionitron) | [@ionitron](https://twitter.com/ionitron) |
+| Maintainer | GitHub |
+| -----------| -------|
+| Davis Crabb | [crabbydavis](https://github.com/crabbydavis) |
 
 ## Installation
 
@@ -33,4 +33,6 @@ TODO
 
 ## Usage
 
-TODO
+Get your ENVIRONMENT_ID from your Sprig dashboard. Call configure before you make any other Sprig calls.
+
+Use the presentDebugSurvey method to see what a survey looks like.

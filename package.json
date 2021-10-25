@@ -1,6 +1,6 @@
 {
   "name": "sprig",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A Capacitor plugin that provdes an api to use the Sprig iOS and Android SDKs",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
